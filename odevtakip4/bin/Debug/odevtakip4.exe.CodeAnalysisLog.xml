@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="c:\program files (x86)\microsoft visual studio 11.0\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="11.0">
+ <Targets>
+  <Target Name="D:\Develop\Visual Basic\Apps\yuksekcita\odevtakip4\odevtakip4\bin\Debug\odevtakip4.exe">
+   <Modules>
+    <Module Name="odevtakip4.exe">
+     <Namespaces>
+      <Namespace Name="odevtakip4">
+       <Types>
+        <Type Name="ApplicationModule" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#_EkleDers(System.String[])" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2013-08-27 22:47:40Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="D:\Develop\Visual Basic\Apps\yuksekcita\odevtakip4\odevtakip4" File="ApplicationModule.vb" Line="384">The query string passed to 'OleDbCommand.New(String, OleDbConnection)' in 'ApplicationModule._EkleDers(String())' could contain the following variables 'values(0)', 'New String(5)(2)', 'values(1)'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#_EkleKonu(System.String[])" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2013-08-27 22:47:40Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="D:\Develop\Visual Basic\Apps\yuksekcita\odevtakip4\odevtakip4" File="ApplicationModule.vb" Line="408">The query string passed to 'OleDbCommand.New(String, OleDbConnection)' in 'ApplicationModule._EkleKonu(String())' could contain the following variables 'ApplicationModule.oku("dersin_sinifi")'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="D:\Develop\Visual Basic\Apps\yuksekcita\odevtakip4\odevtakip4" File="ApplicationModule.vb" Line="414">The query string passed to 'OleDbCommand.New(String, OleDbConnection)' in 'ApplicationModule._EkleKonu(String())' could contain the following variables 'ApplicationModule.oku("konu_id")', 'New String(5)(2)', 'oku1("ogrenci_id")'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="D:\Develop\Visual Basic\Apps\yuksekcita\odevtakip4\odevtakip4" File="ApplicationModule.vb" Line="411">The query string passed to 'OleDbCommand.New(String, OleDbConnection)' in 'ApplicationModule._EkleKonu(String())' could contain the following variables 'ApplicationModule.oku("sinif_id")'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="D:\Develop\Visual Basic\Apps\yuksekcita\odevtakip4\odevtakip4" File="ApplicationModule.vb" Line="405">The query string passed to 'OleDbCommand.New(String, OleDbConnection)' in 'ApplicationModule._EkleKonu(String())' could contain the following variables 'values(0)'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="D:\Develop\Visual Basic\Apps\yuksekcita\odevtakip4\odevtakip4" File="ApplicationModule.vb" Line="399">The query string passed to 'OleDbCommand.New(String, OleDbConnection)' in 'ApplicationModule._EkleKonu(String())' could contain the following variables 'values(0)', 'New String(5)(2)', 'values(1)'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="D:\Develop\Visual Basic\Apps\yuksekcita\odevtakip4\odevtakip4" File="ApplicationModule.vb" Line="401">The query string passed to 'OleDbCommand.New(String, OleDbConnection)' in 'ApplicationModule._EkleKonu(String())' could contain the following variables 'values(1)'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#_EkleOgrenci(System.String[],System.Drawing.Bitmap)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2013-08-27 22:47:40Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="D:\Develop\Visual Basic\Apps\yuksekcita\odevtakip4\odevtakip4" File="ApplicationModule.vb" Line="460">The query string passed to 'OleDbCommand.New(String, OleDbConnection)' in 'ApplicationModule._EkleOgrenci(String(), Bitmap)' could contain the following variables 'ApplicationModule.oku("ders_id")'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="D:\Develop\Visual Basic\Apps\yuksekcita\odevtakip4\odevtakip4" File="ApplicationModule.vb" Line="457">The query string passed to 'OleDbCommand.New(String, OleDbConnection)' in 'ApplicationModule._EkleOgrenci(String(), Bitmap)' could contain the following variables 'ApplicationModule.oku("sinif")'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="D:\Develop\Visual Basic\Apps\yuksekcita\odevtakip4\odevtakip4" File="ApplicationModule.vb" Line="463">The query string passed to 'OleDbCommand.New(String, OleDbConnection)' in 'ApplicationModule._EkleOgrenci(String(), Bitmap)' could contain the following variables 'oku1("konu_id")', 'New String(5)(2)', 'ApplicationModule.oku("ogrenci_id")'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="D:\Develop\Visual Basic\Apps\yuksekcita\odevtakip4\odevtakip4" File="ApplicationModule.vb" Line="454">The query string passed to 'OleDbCommand.New(String, OleDbConnection)' in 'ApplicationModule._EkleOgrenci(String(), Bitmap)' could contain the following variables 'values(0)'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="D:\Develop\Visual Basic\Apps\yuksekcita\odevtakip4\odevtakip4" File="ApplicationModule.vb" Line="447">The query string passed to 'OleDbCommand.New(String, OleDbConnection)' in 'ApplicationModule._EkleOgrenci(String(), Bitmap)' could contain the following variables 'values(0)', 'New String(19)(2)', 'values(1)', 'New String(19)(4)', 'values(2)', 'New String(19)(6)', 'values(3)', 'New String(19)(8)', 'values(4)', 'New String(19)(10)', 'values(5)', 'New String(19)(12)', 'values(6)', 'New String(19)(14)', 'values(7)', 'New String(19)(16)', 'values(8)'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="D:\Develop\Visual Basic\Apps\yuksekcita\odevtakip4\odevtakip4" File="ApplicationModule.vb" Line="449">The query string passed to 'OleDbCommand.New(String, OleDbConnection)' in 'ApplicationModule._EkleOgrenci(String(), Bitmap)' could contain the following variables 'values(8)', 'values(2)'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#_EkleSinif(System.String[])" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2013-08-27 22:47:40Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="D:\Develop\Visual Basic\Apps\yuksekcita\odevtakip4\odevtakip4" File="ApplicationModule.vb" Line="432">The query string passed to 'OleDbCommand.New(String, OleDbConnection)' in 'ApplicationModule._EkleSinif(String())' could contain the following variables 'values(0)', 'New String(7)(2)', 'values(1)', 'New String(7)(4)', 'values(2)'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#_GuncelleDers(System.String[],System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2013-08-27 22:47:40Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="D:\Develop\Visual Basic\Apps\yuksekcita\odevtakip4\odevtakip4" File="ApplicationModule.vb" Line="485">The query string passed to 'OleDbCommand.New(String, OleDbConnection)' in 'ApplicationModule._GuncelleDers(String(), String)' could contain the following variables 'values(0)', 'New String(6)(2)', 'values(1)', 'where'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#_GuncelleKontrol(System.String,System.String,System.Boolean)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2013-08-27 22:47:40Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="D:\Develop\Visual Basic\Apps\yuksekcita\odevtakip4\odevtakip4" File="ApplicationModule.vb" Line="540">The query string passed to 'OleDbCommand.New(String, OleDbConnection)' in 'ApplicationModule._GuncelleKontrol(String, String, Boolean)' could contain the following variables 'column', 'New String(6)(3)', 'where'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#_GuncelleKonu(System.String[],System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2013-08-27 22:47:40Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="D:\Develop\Visual Basic\Apps\yuksekcita\odevtakip4\odevtakip4" File="ApplicationModule.vb" Line="498">The query string passed to 'OleDbCommand.New(String, OleDbConnection)' in 'ApplicationModule._GuncelleKonu(String(), String)' could contain the following variables 'values(0)', 'where'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#_GuncelleOgrenci(System.String[],System.Drawing.Bitmap,System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2013-08-27 22:47:40Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="D:\Develop\Visual Basic\Apps\yuksekcita\odevtakip4\odevtakip4" File="ApplicationModule.vb" Line="512">The query string passed to 'OleDbCommand.New(String, OleDbConnection)' in 'ApplicationModule._GuncelleOgrenci(String(), Bitmap, String)' could contain the following variables 'values(0)', 'New String(20)(2)', 'values(1)', 'New String(20)(4)', 'values(2)', 'New String(20)(6)', 'values(3)', 'New String(20)(8)', 'values(4)', 'New String(20)(10)', 'values(5)', 'New String(20)(12)', 'values(6)', 'New String(20)(14)', 'values(7)', 'New String(20)(16)', 'values(8)', 'where'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#_GuncelleSinif(System.String[],System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2013-08-27 22:47:40Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="D:\Develop\Visual Basic\Apps\yuksekcita\odevtakip4\odevtakip4" File="ApplicationModule.vb" Line="526">The query string passed to 'OleDbCommand.New(String, OleDbConnection)' in 'ApplicationModule._GuncelleSinif(String(), String)' could contain the following variables 'values(0)', 'New String(8)(2)', 'values(1)', 'New String(8)(4)', 'values(2)', 'where'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#_secDerstab()" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2013-08-27 22:47:40Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="D:\Develop\Visual Basic\Apps\yuksekcita\odevtakip4\odevtakip4" File="ApplicationModule.vb" Line="298">The query string passed to 'OleDbCommand.New(String, OleDbConnection)' in 'ApplicationModule._secDerstab()' could contain the following variables 'Operators.AddObject("SELECT * FROM kontrol WHERE konu_id = " &amp; ApplicationModule.oku("konu_id").ToString() &amp; " AND ogrenci_id = ", ApplicationModule._GosterKontrol.SuperTabOgrenciler.SelectedTab.Tag)'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="D:\Develop\Visual Basic\Apps\yuksekcita\odevtakip4\odevtakip4" File="ApplicationModule.vb" Line="277">The query string passed to 'OleDbCommand.New(String, OleDbConnection)' in 'ApplicationModule._secDerstab()' could contain the following variables 'Operators.AddObject("SELECT * FROM kontrol WHERE konu_id = " &amp; oku1("konu_id").ToString() &amp; " AND ogrenci_id = ", ApplicationModule._GosterKontrol.SuperTabOgrenciler.SelectedTab.Tag)'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="D:\Develop\Visual Basic\Apps\yuksekcita\odevtakip4\odevtakip4" File="ApplicationModule.vb" Line="274">The query string passed to 'OleDbCommand.New(String, OleDbConnection)' in 'ApplicationModule._secDerstab()' could contain the following variables 'Operators.AddObject("SELECT * FROM konular WHERE ders_id = ", ApplicationModule._GosterKontrol.SuperTabDersler.SelectedTab.Tag)'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="D:\Develop\Visual Basic\Apps\yuksekcita\odevtakip4\odevtakip4" File="ApplicationModule.vb" Line="295">The query string passed to 'OleDbCommand.New(String, OleDbConnection)' in 'ApplicationModule._secDerstab()' could contain the following variables 'Operators.AddObject("SELECT * FROM konular WHERE ders_id = ", ApplicationModule._GosterKontrol.SuperTabDersler.SelectedTab.Tag)'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#_secOgrencitab()" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2013-08-27 22:47:40Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="D:\Develop\Visual Basic\Apps\yuksekcita\odevtakip4\odevtakip4" File="ApplicationModule.vb" Line="253">The query string passed to 'OleDbCommand.New(String, OleDbConnection)' in 'ApplicationModule._secOgrencitab()' could contain the following variables 'Operators.AddObject("SELECT * FROM kontrol WHERE konu_id = " &amp; ApplicationModule.oku("konu_id").ToString() &amp; " AND ogrenci_id = ", ApplicationModule._GosterKontrol.SuperTabOgrenciler.SelectedTab.Tag)'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="D:\Develop\Visual Basic\Apps\yuksekcita\odevtakip4\odevtakip4" File="ApplicationModule.vb" Line="250">The query string passed to 'OleDbCommand.New(String, OleDbConnection)' in 'ApplicationModule._secOgrencitab()' could contain the following variables 'Operators.AddObject("SELECT * FROM konular WHERE ders_id = ", ApplicationModule._GosterKontrol.SuperTabDersler.SelectedTab.Tag)'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#_SilDers(System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2013-08-27 22:47:40Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="D:\Develop\Visual Basic\Apps\yuksekcita\odevtakip4\odevtakip4" File="ApplicationModule.vb" Line="559">The query string passed to 'OleDbCommand.New(String, OleDbConnection)' in 'ApplicationModule._SilDers(String)' could contain the following variables 'ApplicationModule.oku("konu_id")'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="D:\Develop\Visual Basic\Apps\yuksekcita\odevtakip4\odevtakip4" File="ApplicationModule.vb" Line="555">The query string passed to 'OleDbCommand.New(String, OleDbConnection)' in 'ApplicationModule._SilDers(String)' could contain the following variables 'where'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="D:\Develop\Visual Basic\Apps\yuksekcita\odevtakip4\odevtakip4" File="ApplicationModule.vb" Line="563">The query string passed to 'OleDbCommand.New(String, OleDbConnection)' in 'ApplicationModule._SilDers(String)' could contain the following variables 'where'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="D:\Develop\Visual Basic\Apps\yuksekcita\odevtakip4\odevtakip4" File="ApplicationModule.vb" Line="565">The query string passed to 'OleDbCommand.New(String, OleDbConnection)' in 'ApplicationModule._SilDers(String)' could contain the following variables 'where'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#_SilKonu(System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2013-08-27 22:47:40Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="D:\Develop\Visual Basic\Apps\yuksekcita\odevtakip4\odevtakip4" File="ApplicationModule.vb" Line="578">The query string passed to 'OleDbCommand.New(String, OleDbConnection)' in 'ApplicationModule._SilKonu(String)' could contain the following variables 'where'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="D:\Develop\Visual Basic\Apps\yuksekcita\odevtakip4\odevtakip4" File="ApplicationModule.vb" Line="580">The query string passed to 'OleDbCommand.New(String, OleDbConnection)' in 'ApplicationModule._SilKonu(String)' could contain the following variables 'where'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#_SilOgrenci(System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2013-08-27 22:47:40Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="D:\Develop\Visual Basic\Apps\yuksekcita\odevtakip4\odevtakip4" File="ApplicationModule.vb" Line="594">The query string passed to 'OleDbCommand.New(String, OleDbConnection)' in 'ApplicationModule._SilOgrenci(String)' could contain the following variables 'where'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="D:\Develop\Visual Basic\Apps\yuksekcita\odevtakip4\odevtakip4" File="ApplicationModule.vb" Line="596">The query string passed to 'OleDbCommand.New(String, OleDbConnection)' in 'ApplicationModule._SilOgrenci(String)' could contain the following variables 'where'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#_SilSinif(System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2013-08-27 22:47:40Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="D:\Develop\Visual Basic\Apps\yuksekcita\odevtakip4\odevtakip4" File="ApplicationModule.vb" Line="613">The query string passed to 'OleDbCommand.New(String, OleDbConnection)' in 'ApplicationModule._SilSinif(String)' could contain the following variables 'ApplicationModule.oku("ogrenci_id")'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="D:\Develop\Visual Basic\Apps\yuksekcita\odevtakip4\odevtakip4" File="ApplicationModule.vb" Line="609">The query string passed to 'OleDbCommand.New(String, OleDbConnection)' in 'ApplicationModule._SilSinif(String)' could contain the following variables 'where'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="D:\Develop\Visual Basic\Apps\yuksekcita\odevtakip4\odevtakip4" File="ApplicationModule.vb" Line="617">The query string passed to 'OleDbCommand.New(String, OleDbConnection)' in 'ApplicationModule._SilSinif(String)' could contain the following variables 'where'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="D:\Develop\Visual Basic\Apps\yuksekcita\odevtakip4\odevtakip4" File="ApplicationModule.vb" Line="619">The query string passed to 'OleDbCommand.New(String, OleDbConnection)' in 'ApplicationModule._SilSinif(String)' could contain the following variables 'where'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#_YukleKontrol(System.String,System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2013-08-27 22:47:40Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="D:\Develop\Visual Basic\Apps\yuksekcita\odevtakip4\odevtakip4" File="ApplicationModule.vb" Line="227">The query string passed to 'OleDbCommand.New(String, OleDbConnection)' in 'ApplicationModule._YukleKontrol(String, String)' could contain the following variables 'a(0)'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="D:\Develop\Visual Basic\Apps\yuksekcita\odevtakip4\odevtakip4" File="ApplicationModule.vb" Line="220">The query string passed to 'OleDbCommand.New(String, OleDbConnection)' in 'ApplicationModule._YukleKontrol(String, String)' could contain the following variables 'id'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#_YukleKonu(System.String,System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2013-08-27 22:47:40Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="D:\Develop\Visual Basic\Apps\yuksekcita\odevtakip4\odevtakip4" File="ApplicationModule.vb" Line="168">The query string passed to 'OleDbCommand.New(String, OleDbConnection)' in 'ApplicationModule._YukleKonu(String, String)' could contain the following variables 'id'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#_YukleOgrenci(System.String,System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2013-08-27 22:47:40Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="D:\Develop\Visual Basic\Apps\yuksekcita\odevtakip4\odevtakip4" File="ApplicationModule.vb" Line="85">The query string passed to 'OleDbCommand.New(String, OleDbConnection)' in 'ApplicationModule._YukleOgrenci(String, String)' could contain the following variables 'id'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#_YukleOgrenciBilgileri(System.String,System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2013-08-27 22:47:40Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="D:\Develop\Visual Basic\Apps\yuksekcita\odevtakip4\odevtakip4" File="ApplicationModule.vb" Line="120">The query string passed to 'OleDbCommand.New(String, OleDbConnection)' in 'ApplicationModule._YukleOgrenciBilgileri(String, String)' could contain the following variables 'Sinifid'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="D:\Develop\Visual Basic\Apps\yuksekcita\odevtakip4\odevtakip4" File="ApplicationModule.vb" Line="105">The query string passed to 'OleDbCommand.New(String, OleDbConnection)' in 'ApplicationModule._YukleOgrenciBilgileri(String, String)' could contain the following variables 'id'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Duzenle_Ders" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Ekle_Ders_Load(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2013-08-27 22:47:40Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="D:\Develop\Visual Basic\Apps\yuksekcita\odevtakip4\odevtakip4" File="Duzenle_Ders.vb" Line="40">The query string passed to 'OleDbCommand.New(String, OleDbConnection)' in 'Duzenle_Ders.Ekle_Ders_Load(Object, EventArgs)' could contain the following variables 'Operators.AddObject("SELECT dersin_sinifi FROM dersler WHERE ders_id= ", ApplicationModule._selectedMetroTileDers.Tag)'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Duzenle_Ogrenci" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Dispose(System.Boolean)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="bitmapp" TypeName="DisposableFieldsShouldBeDisposed" Category="Microsoft.Usage" CheckId="CA2213" Status="Active" Created="2013-08-27 22:47:40Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="D:\Develop\Visual Basic\Apps\yuksekcita\odevtakip4\odevtakip4" File="Duzenle_Ogrenci.Designer.vb" Line="7">'Duzenle_Ogrenci' contains field 'Duzenle_Ogrenci.bitmapp' that is of IDisposable type: 'Bitmap'. Change the Dispose method on 'Duzenle_Ogrenci' to call Dispose or Close on this field.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Duzenle_Ogrenci_Load(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2013-08-27 22:47:40Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="D:\Develop\Visual Basic\Apps\yuksekcita\odevtakip4\odevtakip4" File="Duzenle_Ogrenci.vb" Line="9">The query string passed to 'OleDbCommand.New(String, OleDbConnection)' in 'Duzenle_Ogrenci.Duzenle_Ogrenci_Load(Object, EventArgs)' could contain the following variables 'Operators.AddObject("SELECT * FROM öğrenciler WHERE ogrenci_id= ", ApplicationModule._selectedMetroTileOgrenci.Tag)'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Duzenle_Sinif" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Duzenle_Sinif_Load(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2013-08-27 22:47:40Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="D:\Develop\Visual Basic\Apps\yuksekcita\odevtakip4\odevtakip4" File="Duzenle_Sinif.vb" Line="31">The query string passed to 'OleDbCommand.New(String, OleDbConnection)' in 'Duzenle_Sinif.Duzenle_Sinif_Load(Object, EventArgs)' could contain the following variables 'Operators.AddObject("SELECT * FROM sınıflar WHERE sinif_id= ", ApplicationModule._selectedMetroTileSinif.Tag)'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Ekle_Ogrenci" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Dispose(System.Boolean)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="bitmapp" TypeName="DisposableFieldsShouldBeDisposed" Category="Microsoft.Usage" CheckId="CA2213" Status="Active" Created="2013-08-27 22:47:40Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="D:\Develop\Visual Basic\Apps\yuksekcita\odevtakip4\odevtakip4" File="Ekle_Ogrenci.Designer.vb" Line="7">'Ekle_Ogrenci' contains field 'Ekle_Ogrenci.bitmapp' that is of IDisposable type: 'Bitmap'. Change the Dispose method on 'Ekle_Ogrenci' to call Dispose or Close on this field.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="DisposableFieldsShouldBeDisposed" Category="Microsoft.Usage" CheckId="CA2213">
+   <Name>Disposable fields should be disposed</Name>
+   <Description>If a type that implements IDisposable owns fields that also implement IDisposable, the encapsulating type's Dispose() implementation should call Dispose() on each disposable field.</Description>
+   <Resolution Name="Default">{0} contains field {1} that is of IDisposable type: {2}. Change the Dispose method on {0} to call Dispose or Close on this field.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182328(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="usagerules.dll" Version="11.0.0.0" />
+  </Rule>
+  <Rule TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100">
+   <Name>Review SQL queries for security vulnerabilities</Name>
+   <Description>A SQL command string built from user input is vulnerable to SQL injection attacks. Microsoft SQL Server and other database servers support stored procedures and parameterized SQL queries, which reduce the risk of injection attacks.</Description>
+   <Resolution Name="WithNonLiterals">The query string passed to {0} in {1} could contain the following variables {2}. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Resolution>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/ms182310(VS.100).aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="11.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">Category</String>
+  <String Key="Certainty">Certainty</String>
+  <String Key="CollapseAll">Collapse All</String>
+  <String Key="CheckId">Check Id</String>
+  <String Key="Error">Error</String>
+  <String Key="Errors">error(s)</String>
+  <String Key="ExpandAll">Expand All</String>
+  <String Key="Help">Help</String>
+  <String Key="Line">Line</String>
+  <String Key="Messages">message(s)</String>
+  <String Key="LocationNotStoredInPdb">[Location not stored in Pdb]</String>
+  <String Key="Project">Project</String>
+  <String Key="Resolution">Resolution</String>
+  <String Key="Rule">Rule</String>
+  <String Key="RuleFile">Rule File</String>
+  <String Key="RuleDescription">Rule Description</String>
+  <String Key="Source">Source</String>
+  <String Key="Status">Status</String>
+  <String Key="Target">Target</String>
+  <String Key="Warning">Warning</String>
+  <String Key="Warnings">warning(s)</String>
+  <String Key="ReportTitle">Code Analysis Report</String>
+ </Localized>
+</FxCopReport>

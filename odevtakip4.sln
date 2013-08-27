@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "odevtakip4", "odevtakip4\odevtakip4.vbproj", "{4F5A82F2-1F61-43BC-B54B-EF61CEDB98BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4F5A82F2-1F61-43BC-B54B-EF61CEDB98BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F5A82F2-1F61-43BC-B54B-EF61CEDB98BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F5A82F2-1F61-43BC-B54B-EF61CEDB98BF}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F5A82F2-1F61-43BC-B54B-EF61CEDB98BF}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
